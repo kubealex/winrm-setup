@@ -69,6 +69,7 @@
 
 # Support -Verbose option
 [CmdletBinding()]
+
 Param (
     [string]$SubjectName = $env:COMPUTERNAME,
     [int]$CertValidityDays = 1095,
