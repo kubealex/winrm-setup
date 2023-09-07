@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy ByPass Invoke-Expression (Invoke-WebRequest -Uri https://raw.githubusercontent.com/kubealex/winrm-setup/main/winrm-setup.ps1)
